@@ -1,15 +1,22 @@
-1. Clone the project
-2. Start backend:
-   cd backend
-   cp .env.example .env -> edit with your MONGO_URI and BASE_URL (e.g., http://localhost:5000)
-   npm install
-   npm run dev
+# 📌 URL Shortener (MERN Stack)
 
-3. Start frontend:
-   cd frontend
-   npm install
-   npm start
+A simple URL shortener application built with **MongoDB, Express.js, React, and Node.js**.
 
-4. Open http://localhost:3000 (React). Create a short URL. Try opening the short path (http://localhost:5000/{shortCode}) - it will redirect.
+---
 
-Optional: Deploy backend to Render/Heroku and frontend to Netlify/Vercel. Update REACT_APP_API_BASE accordingly.
+## 🚀 Features
+- Shorten long URLs
+- Redirect to original URLs using short codes
+- Frontend with React
+- Backend with Node.js and Express
+- MongoDB for data storage
+- Deployment ready for Netlify/Vercel (frontend) and Render/Heroku (backend)
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the Project
+```bash
+git clone https://github.com/khan-guddu-02/url-shortner-mern.git
+cd url-shortner-mern
